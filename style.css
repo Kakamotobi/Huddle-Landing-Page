@@ -22,7 +22,6 @@ body {
     background-color: var(--violet);
     padding: 35px 35px;
     height: 100vh;
-    width: 100vw;
     background-image: url(images/bg-mobile.svg);
     background-repeat: no-repeat;
     background-size: contain;
@@ -144,6 +143,7 @@ footer {
         display: flex;
         justify-content: space-between;
         text-align: left;
+        gap: 0 2rem;
     }
     #mockup {
         width: 60%;
